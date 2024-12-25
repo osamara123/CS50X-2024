@@ -1,0 +1,68 @@
+#Intro {
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
+
+#h2 {
+    position: absolute;
+    top: 58%;
+    right: 34%;
+}
+
+#img1 {
+    position: absolute;
+    right: 50px;
+}
+
+.top-left {
+    text-align: left;
+    vertical-align: top;
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    font-size: 80;
+    color: blue;
+}
+
+#logo {
+    font-size: 35px;
+    position: absolute;
+}
+
+#context1 {
+    position: absolute;
+    font-size: 23px;
+    top: 95%;
+    right: 3%;
+    animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #ff6347; /* Start color */
+    }
+    100% {
+        color: #8a2be2; /* End color */
+    }
+}
+
+#context2 {
+    position: absolute;
+    font-size: 25px;
+    top: 37%;
+    left: 66%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ADD8E6; /* Set your desired background color for the entire page */
+    color: #333; /* Set your desired text color */
+}
+
+

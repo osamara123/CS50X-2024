@@ -1,0 +1,89 @@
+#h1 {
+    font-size: 100px;
+    top: 40%;
+    right: 20%;
+    animation: changeColor 7s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: lightyellow;
+    height: 100vh;
+}
+
+.context1 {
+    font-size: 20px;
+    top: 25%;
+    left: 0%;
+    display: flex;
+    position: absolute;
+}
+
+.vertical-line {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 33%;
+    border-left: 4px solid #ccc;
+    height: 100vh;
+}
+
+#video-container {
+    position: relative;
+    max-width: auto;
+    max-height: auto;
+}
+
+#video {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 50%;
+    height: 50%;
+}
+
+.context2 {
+    position: relative;
+    color: black;
+    top: 59%;
+    left: 40%;
+    font-size: 24px;
+    padding: 20px;
+}
+
+img {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    height: 80%;
+    width: 50%;
+}
+
+#context3 {
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    font-size: 20px;
+    color: black;
+}

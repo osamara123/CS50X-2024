@@ -1,0 +1,72 @@
+@keyframes colorChange {
+    0% {
+        color: #ff6347; /* Start color */
+    }
+    100% {
+        color: #8a2be2; /* End color */
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffff; /* Set your desired background color for the entire page */
+    color: #333; /* Set your desired text color */
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img1{
+    width: auto;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 600px; /* Set the maximum width of the text container */
+    margin-left: 20px; /* Add some space between the image and the text */
+    display: inline-block; /* Display the text container as an inline-block element */
+    vertical-align: top; /* Align the top of the text container with the top of the image */
+    font-size: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white; /* Adjust text color as needed */
+}
+
+.header {
+    background-color: #333; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    padding: 10px;
+    text-align: center;
+}
+
+.header a {
+    color: red; /* Adjust link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header b {
+    color: blue; /* Adjust link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}

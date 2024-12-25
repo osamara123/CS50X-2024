@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+    <table class="table table-hover">
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+
+        {% for buyer in buyers %}
+            <tr>
+                <td> {{ buyer.symbol }} </td>
+                <td> {{ buyer.shares }} </td>
+                <td> {{ (buyer.price) | usd }} </td>
+                <td> {{ ((buyer.shares) * (buyer.price)) | usd }} </td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <td> Cash </td>
+            <td> {{ cash | usd }} </td>
+        </tr>
+    </table>
+
+{% endblock %}

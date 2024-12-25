@@ -1,0 +1,44 @@
+#logo {
+    font-size: 35px;
+    position: absolute;
+}
+
+#context1 {
+    position: absolute;
+    font-size: 23px;
+    top: 95%;
+    right: 3%;
+    animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        color: #ff6347; /* Start color */
+    }
+    100% {
+        color: #8a2be2; /* End color */
+    }
+}
+
+#context2 {
+    position: absolute;
+    font-size: 25px;
+    top: 37%;
+    left: 66%;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Set your desired background color for the entire page */
+    color: #333; /* Set your desired text color */
+}
+
+.text-container {
+    max-width: 600px; /* Set the maximum width of the text container */
+    margin-left: 20px; /* Add some space between the image and the text */
+    display: inline-block; /* Display the text container as an inline-block element */
+    vertical-align: top; /* Align the top of the text container with the top of the image */
+    font-size: 25px;
+}
